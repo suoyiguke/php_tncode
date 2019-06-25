@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="tncode-master-server">
+    <serverData>
+      <paths name="tncode-master-server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tncode-master" local="$PROJECT_DIR$" web="/tncode-master" />
+            <mapping local="" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+{
+  "require": {
+    "monolog/monolog": "1.2.*",
+    "aliyuncs/oss-sdk-php": "2.0.0"
+  }
+}
