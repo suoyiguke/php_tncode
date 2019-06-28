@@ -1,4 +1,13 @@
 <?php
+
+//禁用错误报告
+error_reporting(0);
+//报告运行时错误
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+//报告所有错误
+error_reporting(E_ALL);
+
+
 /*! tncode 1.2 author:weiyingbin email:277612909@qq.com
 //@ object webiste: http://www.39gs.com/archive/259.html
 //@ https://github.com/binwind8/tncode
@@ -9,10 +18,12 @@ $yml= spyc_load_file('spyc.yml');
 
 require_once './vendor/Oss.class.php';
 if($_ENV){
-    $yml['website'] = $_ENV['code_website'];
-    $yml['name'] = $_ENV['code_name'];
-    $yml['img_href'] = $_ENV['code_img_href'];
-    $yml['bucket'] = $_ENV['code_bucket'];
+    $yml['WEBSITE'] = WEBSITE;
+    $yml['NAME'] = NAME;
+    $yml['IMG_HREF'] = IMG_HREF;
+    $yml['BUCKET'] = BUCKET;
+    $yml['FOLDER_NAME'] = FOLDER_NAME;
+
 }
 
 
@@ -76,7 +87,7 @@ class TnCode
         //产生随机数
         $bg = mt_rand(0, count($list)-1);
         //生成图路径
-        $src = $GLOBALS['yml']['img_href']."".$list[$bg];
+        $src = $GLOBALS['yml']['IMG_HREF']."".$list[$bg];
         //构建图片
         $this->im_fullbg = @imagecreatefrompng($src);
         $this->im_bg = imagecreatetruecolor($this->bg_width, $this->bg_height);
@@ -100,7 +111,7 @@ class TnCode
             $quality = 100;//图片质量 0-100
         }else{
             $type = 'png';
-            $quality = 9;//图片质量 0-9
+            $quality = 100;//图片质量 0-9
         }
         header('Content-Type: image/'.$type);
         $func = "image".$type;
@@ -115,7 +126,7 @@ class TnCode
     }
 
     private function _createBg(){
-        $file_mark = dirname(__FILE__).'/img/mark.png';
+        $file_mark = dirname(__FILE__).'\img\mark.png';
         $im = imagecreatefrompng($file_mark);
         header('Content-Type: image/png');
         imagealphablending( $im, true);
@@ -126,7 +137,7 @@ class TnCode
     }
 
     private function _createSlide(){
-        $file_mark = dirname(__FILE__).'/img/mark2.png';
+        $file_mark = dirname(__FILE__).'\img\mark2.png';
         $img_mark = imagecreatefrompng($file_mark);
         imagecopy($this->im_slide, $this->im_fullbg,0, $this->_y , $this->_x, $this->_y, $this->mark_width, $this->mark_height);
         imagecopy($this->im_slide, $img_mark,0, $this->_y , 0, 0, $this->mark_width, $this->mark_height);

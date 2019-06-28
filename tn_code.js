@@ -132,8 +132,6 @@ var tncode = {
             theEvent = theEvent.touches[0];
         }
 
-        console.log("_block_start_move");
-
         var obj = document.getElementByClassName('slide_block_text');
         obj.style.display="none";
         tncode._draw_bg();
@@ -151,8 +149,6 @@ var tncode = {
             theEvent = theEvent.touches[0];
         }
         tncode._is_moving = true;
-        console.log("_block_on_move");
-                //document.getElementById('msg').innerHTML = "move:"+theEvent.clientX+";"+theEvent.clientY;
         var offset = theEvent.clientX - tncode._block_start_x;
         if(offset<0){
             offset = 0;
@@ -168,7 +164,6 @@ var tncode = {
         tncode._draw_bg();
         tncode._draw_mark();
 
-        console.log(tncode._mark_offset)
     },
     _block_on_end:function(e){
         if(!tncode._doing)return true;
@@ -177,7 +172,6 @@ var tncode = {
         if(theEvent.touches){
             theEvent = theEvent.touches[0];
         }
-        console.log("_block_on_end");
         tncode._is_moving = false;
         tncode._send_result();
     },
@@ -284,7 +278,6 @@ var tncode = {
                 };
             }
         }
-        console.log(ctx_mark)
         ctx_mark.putImageData(imageData, 0, 0);
     },
     _reset:function(){
@@ -464,7 +457,6 @@ var tncode = {
                     };
                 }
             }
-            console.log(ctx_mark)
             ctx_mark.putImageData(imageData, 0, 0);
 
 
@@ -574,6 +566,7 @@ function sendInfoToJava(){
         window.AndroidWebView.showInfoFromJs(tncode._result);
     }
     if(window.parent){
+        debugger
         postMessage(tncode._result);
     }
 

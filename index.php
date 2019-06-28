@@ -3,11 +3,21 @@ include_once 'spyc.php';
 $yml= spyc_load_file('spyc.yml');
 
 if($_ENV){
-    $yml['website'] = $_ENV['code_website'];
-    $yml['name'] = $_ENV['code_name'];
-    $yml['img_href'] = $_ENV['code_img_href'];
-    $yml['bucket'] = $_ENV['code_bucket'];
+    define( 'WEBSITE', $_ENV['WEBSITE'] );
+    define( 'NAME', $_ENV['NAME'] );
+    define( 'IMG_HREF', $_ENV['IMG_HREF'] );
+    define( 'BUCKET', $_ENV['BUCKET'] );
+    define( 'FOLDER_NAME', $_ENV['FOLDER_NAME'] );
+
+    $yml['WEBSITE'] = WEBSITE;
+    $yml['NAME'] = NAME;
+    $yml['IMG_HREF'] = IMG_HREF;
+    $yml['BUCKET'] = BUCKET;
+    $yml['FOLDER_NAME'] = FOLDER_NAME;
+
+
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="">
@@ -21,10 +31,10 @@ if($_ENV){
 
 <body>
 <script type="text/javascript">
-var name = '<?php echo $yml['name']; ?>';
-var website = '<?php echo $yml['website']; ?>';
-window.web_name = name;
-window.web_website = website;
+    var name = '<?php echo $yml['NAME']; ?>';
+    var website = '<?php echo $yml['WEBSITE']; ?>';
+    window.web_name = name;
+    window.web_website = website;
 
 $TN.onsuccess(function(){
 //验证通过
