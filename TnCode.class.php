@@ -7,7 +7,7 @@ include_once 'spyc.php';
 global $yml;
 $yml= spyc_load_file('spyc.yml');
 
-if(array_key_exists('website',$_ENV)){
+if(array_key_exists('code_website',$_ENV)){
     $yml['website'] = $_ENV['code_website'];
     $yml['name'] = $_ENV['code_name'];
     $yml['img_href'] = $_ENV['code_img_href'];
