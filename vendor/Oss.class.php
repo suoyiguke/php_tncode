@@ -21,10 +21,10 @@ class Oss
         $accessKeySecret = "6f8AXwZC8BSHpnfTUpmLPA31Z7oi07";
         // Endpoint以杭州为例，其它Region请按实际情况填写。
         $endpoint = "oss-cn-shenzhen.aliyuncs.com";
-        $bucket = $GLOBALS['yml']['BUCKET'];
+        $bucket = $GLOBALS['yml']['bucket'];
 
         $ossClient = new OssClient($accessKeyId, $accessKeySecret, $endpoint);
-        $prefix =  $GLOBALS['yml']['FOLDER_NAME'].'/';
+        $prefix =  $GLOBALS['yml']['folder_name'].'/';
         $delimiter = '/';
         $nextMarker = '';
         $maxkeys = '';

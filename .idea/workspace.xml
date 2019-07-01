@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ace6a27c-ba83-425d-be01-62172d5440dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TnCode.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/TnCode.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spyc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spyc.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,22 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/Oss.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-              <folding>
-                <element signature="e#210#228#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TnCode.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2691">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="673">
+              <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -43,16 +33,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tn_code.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="563" column="27" lean-forward="true" selection-start-line="563" selection-start-column="27" selection-end-line="563" selection-end-column="27" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -60,11 +41,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tn_code.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="92">
               <caret line="4" column="5471" selection-start-line="4" selection-start-column="5471" selection-end-line="4" selection-end-column="5471" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tn_code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12949">
+              <caret line="563" column="27" selection-start-line="563" selection-start-column="27" selection-end-line="563" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -81,8 +71,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spyc.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="6" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="92">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spyc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -140,8 +139,6 @@
       <find>$bucket</find>
       <find>VerificationCode</find>
       <find>$yml['FOLDER_NAME']</find>
-      <find>code</find>
-      <find>FOLDER_NAME</find>
       <find>bucket</find>
       <find>console.log(&quot;_block_on_move&quot;);</find>
       <find>console.log(tncode._mark_offset)</find>
@@ -154,6 +151,8 @@
       <find>NAME</find>
       <find>BUCKET</find>
       <find>postMessage</find>
+      <find>code</find>
+      <find>FOLDER_NAME</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,11 +173,11 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/spyc.yml" />
-        <option value="$PROJECT_DIR$/TnCode.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/vendor/Oss.class.php" />
         <option value="$PROJECT_DIR$/tn_code.js" />
+        <option value="$PROJECT_DIR$/spyc.yml" />
+        <option value="$PROJECT_DIR$/TnCode.class.php" />
       </list>
     </option>
   </component>
@@ -204,10 +203,10 @@
   </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="9000" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-307" />
-    <option name="y" value="156" />
+    <option name="x" value="-151" />
+    <option name="y" value="231" />
     <option name="width" value="1936" />
-    <option name="height" value="873" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -230,24 +229,6 @@
             <path>
               <item name="tncode-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="tncode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tncode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tncode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aliyuncs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tncode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tncode-master" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aliyuncs" type="462c0819:PsiDirectoryNode" />
-              <item name="oss-sdk-php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tncode-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tncode-master" type="462c0819:PsiDirectoryNode" />
               <item name="tn_code.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
@@ -259,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -327,8 +308,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.tn_code.js" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.tn_code.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.localhost" />
         <item itemvalue="PHP Script.php.exe" />
@@ -366,7 +347,8 @@
       <workItem from="1561627262201" duration="3477000" />
       <workItem from="1561683438339" duration="1611000" />
       <workItem from="1561685426381" duration="1171000" />
-      <workItem from="1561686756877" duration="271000" />
+      <workItem from="1561686756877" duration="6244000" />
+      <workItem from="1561942544326" duration="1659000" />
     </task>
     <task id="LOCAL-00001" summary="更改图片读取方式和防止重复事件">
       <created>1560219385494</created>
@@ -445,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561686993828</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="读取环境变量">
+      <created>1561687031077</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561687031077</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130625000" />
+    <option name="totallyTimeSpent" value="138257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,16 +450,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4989339" weight="0.305794" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.30868167" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.3496802" visible="true" weight="0.36909872" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.3491471" visible="true" weight="0.36909872" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32939914" />
@@ -478,8 +468,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" weight="0.32832617" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.29744136" side_tool="true" visible="true" weight="0.26609442" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.70255864" visible="true" weight="0.26609442" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.65085286" side_tool="true" visible="true" weight="0.36909872" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.70255864" weight="0.26609442" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -534,15 +524,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="读取环境变量" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/TnCode.class.php</url>
-          <line>117</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="tncode.php">
         <watch expression="$this-&gt;im_slide" />
@@ -743,35 +724,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spyc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/READMEz.md" />
-    <entry file="file://$PROJECT_DIR$/TnCode.class.php">
+    <entry file="file://$PROJECT_DIR$/vendor/Oss.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2691">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tn_code.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" column="5471" selection-start-line="4" selection-start-column="5471" selection-end-line="4" selection-end-column="5471" />
+        <state relative-caret-position="667">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#210#228#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tn_code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12949">
+          <caret line="563" column="27" selection-start-line="563" selection-start-column="27" selection-end-line="563" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -782,10 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spyc.yml">
+    <entry file="file://$PROJECT_DIR$/spyc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="1219">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -816,20 +783,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tn_code.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="563" column="27" lean-forward="true" selection-start-line="563" selection-start-column="27" selection-end-line="563" selection-end-column="27" />
+        <state relative-caret-position="207">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/Oss.class.php">
+    <entry file="file://$PROJECT_DIR$/tn_code.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        <state relative-caret-position="92">
+          <caret line="4" column="5471" selection-start-line="4" selection-start-column="5471" selection-end-line="4" selection-end-column="5471" />
           <folding>
-            <element signature="e#210#228#0#PHP" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spyc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TnCode.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
         </state>
       </provider>
     </entry>
